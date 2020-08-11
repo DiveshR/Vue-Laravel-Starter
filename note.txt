@@ -1,0 +1,19 @@
+Vuejs with laravel:
+- install adminlte admin panel
+npm install adminlte --save
+
+create master.blade.php in layouts folder
+paste code there 
+inside it remove all js and css
+replace all with /js/app.js
+for css /css/app.css
+
+- Out javascript files are stored in  resources/assets/js
+- we will open app.js and bootstrap.js inside resources/assets/js
+
+In bootstrap.js we need to add line require('admin-lte'); in try where admin-lte is dependency name in package.json file.
+
+For css go to resources/assets/sass/app.scss
+in app.scss "import" css file from node_module directory check for template name, dist/css/.css file
+
+===================================================================================================
